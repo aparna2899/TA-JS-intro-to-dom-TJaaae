@@ -1,0 +1,193 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Style*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  background: #fdf4e7;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 32px;
+}
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: yellow;
+  background: #377d80;
+  padding: 16px 0;
+}
+
+li {
+  height: 450px;
+  width: 380px;
+  background: white;
+  text-align: center;
+  padding: 24px;
+  margin: 16px;
+}
+.img-class {
+  width: 180px;
+  margin: 0 auto;
+}
+.img-class img {
+  width: 100%;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+span {
+  display: block;
+  margin-top: 8px;
+  color: #494949;
+}
+button {
+  background: #377d80;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin-top: 22px;
+}
